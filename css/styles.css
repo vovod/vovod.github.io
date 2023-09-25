@@ -35,12 +35,14 @@ nav {
     font-weight: 700;
     font-size: 35px;
     margin-left: 10px;
+    margin-right: 700px;
 }
 
 nav img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    border: 5px solid #12067f;
 }
 
 .nav-links {
