@@ -1,8 +1,9 @@
-function show_hide_element() {
-    var x = document.getElementById("nav-about-hide");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+// menu for media
+function showMenu() {
+    var navLinks = document.getElementById("navLinks");
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    var navLinks = document.getElementById("navLinks");
+    navLinks.style.right = "-150px";
 }

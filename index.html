@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dela+Gothic+One">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,9 +25,10 @@
     </a> -->
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/logo.png"> </a>
+            <a href="index.html" class="nav-img"><img src="images/logo.png"> </a>
             <a href="index.html" style="font-family: Audiowide;" class="nav-text"> VOVOD PAGE </a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul style="font-family: Poppins;">
                     <li><a href="index.html">HOME</a></li>
                     <li>
@@ -36,7 +38,13 @@
                     <li class="nav-contact"><a href="https://www.facebook.com/nhdvovod">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+        <div class="text-box" style="font-family: Poppins;">
+            <h1 style="font-family: Dela Gothic One;">Github Website</h1>
+            <p>--- I don't know what to type here ---</p>
+            <a href="https://github.com/vovod" class="hero-btn">Visit My Github To Know More</a>
+        </div>
     </section>
 
 
