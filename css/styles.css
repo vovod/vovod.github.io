@@ -40,7 +40,7 @@ nav {
 
 .nav-text:hover {
     color: #011845;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 nav img {
@@ -48,6 +48,11 @@ nav img {
     height: 80px;
     border-radius: 50%;
     border: 5px solid #736f93;
+}
+
+nav img:hover {
+    border: 5px solid #011845;
+    transition: 1s;
 }
 
 .nav-links {
