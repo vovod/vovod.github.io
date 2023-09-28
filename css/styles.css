@@ -131,8 +131,8 @@ nav img:hover {
 
 .hero-btn:hover {
     border: 3px solid #ffffff;
-    background: #8b2c25;
-    transition: 1s;
+    background: rgba(75, 75, 75, 0.5);
+    transition: 1.5s;
 }
 
 nav .fa {
