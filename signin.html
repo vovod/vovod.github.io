@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Sign in </title>
-    <link rel="icon" href="images/logo.png" type="image/png" class="icon">
-
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/sign-in.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
@@ -39,5 +39,29 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+        <div class="wrapper" style="font-family: Poppins;">
+            <form action="">
+                <h1>Sign in</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa fa-lock"></i>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password</a>
+                </div>
+                <button type="submit" class="btn">Sign in</button>
+                <div class="signup-link">
+                    <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+                </div>
+            </form>
+        </div>
     </section>
 </body>
+<script src="script.js"></script>
+
+</html>

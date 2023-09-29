@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-.icon {
-    border-radius: 50%;
-    border: 5px solid #736f93;
-}
-
 .header {
     min-height: 100vh;
     width: 100%;
@@ -123,7 +118,7 @@ nav img {
 }
 
 .text-box p:hover::before {
-    content: "--- Click Here To Change Background's Color---";
+    content: "--- Click Here To Change Background ---";
     color: rgb(255, 255, 255)
 }
 
