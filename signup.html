@@ -12,6 +12,7 @@
     <link rel="icon" type="image/x-icon" href="images/logo.ico" class="icon">
 
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/sign-up.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dela+Gothic+One">
@@ -39,6 +40,49 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+        <div class="wrapper" style="font-family: Poppins;">
+            <form action="">
+                <h1>Sign up</h1>
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" placeholder="Full Name" required>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Username" required>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" placeholder="Email" required>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Phone Number" required>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" placeholder="Password" required>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Confirm Password" required>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn">Sign up</button>
+
+                <div class="signup-link">
+                    <p>Already have an account? <a href="signin.html">Sign in</a></p>
+                </div>
+            </form>
+        </div>
     </section>
 </body>
 <script src="script.js"></script>

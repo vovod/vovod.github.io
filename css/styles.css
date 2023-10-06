@@ -153,6 +153,7 @@ nav .fa {
 }
 
 @media (max-width: 700px) {
+
     /* nav image {
         width: 10px;
         height: 10px;
@@ -188,6 +189,8 @@ nav .fa {
     }
 
     .nav-links {
+        display: none;
+        /* transform: translate(9999px); */
         position: absolute;
         background: #011845;
         height: 100vh;

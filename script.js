@@ -1,11 +1,16 @@
 // menu for media
+var navLinks = document.getElementById("navLinks");
 function showMenu() {
-    var navLinks = document.getElementById("navLinks");
-    navLinks.style.right = "0";
+    navLinks.style.display = "block";
+    setTimeout(() => {
+        navLinks.style.right = "0";
+    }, 100);
 }
 function hideMenu() {
-    var navLinks = document.getElementById("navLinks");
     navLinks.style.right = "-150px";
+    setTimeout(() => {
+        navLinks.style.display = "none";
+    }, 1000);
 }
 
 // change color on click

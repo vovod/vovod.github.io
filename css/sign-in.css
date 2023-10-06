@@ -1,5 +1,4 @@
 .wrapper {
-    /* width: 50%; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -8,10 +7,9 @@
     background: transparent;
     transform: translate(-50%, -50%);
     color: #fff;
-    /* width: 420px; */
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 30px 40px;
 }
@@ -108,6 +106,7 @@
 @media (max-width:700px) {
     .wrapper {
         width: 250px;
+        padding: 30px 22px;
     }
 
     .wrapper .input-box {
@@ -124,7 +123,10 @@
 
     .wrapper .remember-forgot {
         font-size: 12.5px;
-        margin: -5px 30px 15px;
+    }
+
+    .remember-forgot a {
+        margin: 10px 0px 0px 85px;
     }
 
     .remember-forgot label {
