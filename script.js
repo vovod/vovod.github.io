@@ -13,9 +13,6 @@ function hideMenu() {
     }, 1000);
 }
 
-// music
-let vid = document.getElementById("audio");
-vid.volume = 0.35;
 
 // change color on click
 var background_index = 0;
