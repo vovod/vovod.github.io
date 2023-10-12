@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -152,7 +153,24 @@ nav .fa {
     position: absolute;
 }
 
+audio:hover,
+audio:focus,
+audio:active {
+    box-shadow: 15px 15px 20px 0px rgba(194, 6, 6, 0.4);
+}
+
+audio {
+    background-color: #fff;
+    margin-top: 600px;
+    width: 100%;
+    transition: all 0.5s linear;
+    box-shadow: 2px 2px 14px 0px #a154b2;
+}
+
 @media (max-width: 700px) {
+    .audio {
+        display: none;
+    }
 
     /* nav image {
         width: 10px;
