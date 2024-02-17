@@ -160,8 +160,9 @@ audio:active {
 }
 
 audio {
+    position: fixed;
+    bottom: 0;
     background-color: #fff;
-    margin-top: 600px;
     width: 100%;
     transition: all 0.5s linear;
     box-shadow: 2px 2px 14px 0px #a154b2;
