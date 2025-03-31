@@ -39,25 +39,44 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <div class="text-box" style="font-family: Poppins;">
-            <h1 style="font-family: Dela Gothic One;">Github Website</h1>
-            <p onclick="changeBg()">
-                <span>
-                    --- I don't know what to type here ---
-                </span>
-            </p>
-            <a href="https://github.com/vovod" class="hero-btn">Visit My Github To Know More</a>
+        
+        <div class="header-content">
+            <div class="text-box" style="font-family: Poppins;">
+                <h1 style="font-family: Dela Gothic One;">Github Website</h1>
+                <p onclick="changeBg()">
+                    <span>
+                        --- I don't know what to type here ---
+                    </span>
+                </p>
+                <a href="https://github.com/vovod" class="hero-btn">Visit My Github To Know More</a>
+            </div>
+
+            <!-- Featured Repositories Section -->
+            <div class="featured-repos">
+                <h2 class="featured-title">Featured Repositories</h2>
+                <div class="repo-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="repoTrack">
+                            <!-- Repositories will be added here dynamically -->
+                            <div class="loading-repos">
+                                <i class="fa fa-spinner fa-spin"></i> Loading repositories...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-nav">
+                        <button class="carousel-btn prev-btn" onclick="prevSlide()"><i class="fa fa-chevron-left"></i></button>
+                        <button class="carousel-btn next-btn" onclick="nextSlide()"><i class="fa fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
+        
         <audio controls autoplay loop preload="metadata" class="audio" id="audio">
             <source src="rhyder.mp3" type="audio/mpeg">
         </audio>
     </section>
 
 </body>
-<script src="script.js">
-    // music
-    let vid = document.getElementById("audio");
-    vid.volume = 0.85;
-</script>
+<script src="script.js"></script>
 
 </html>
